@@ -1,6 +1,6 @@
 {
   "name": "@vibe-kit/sdk",
-  "version": "0.0.56",
+  "version": "0.0.57",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,6 +15,16 @@
       "types": "./dist/agents/*.d.ts",
       "import": "./dist/agents/*.js",
       "require": "./dist/agents/*.cjs"
+    },
+    "./infra": {
+      "types": "./dist/infra/index.d.ts",
+      "import": "./dist/infra/index.js",
+      "require": "./dist/infra/index.cjs"
+    },
+    "./registry": {
+      "types": "./dist/registry/index.d.ts",
+      "import": "./dist/registry/index.js",
+      "require": "./dist/registry/index.cjs"
     }
   },
   "scripts": {
